@@ -1,0 +1,122 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moosic</title>
+
+    <!-- FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- LINK TO GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;500;900&family=Sacramento&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- // LINK TO STYLESHEET -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="HeadingDiv">
+        <a id="NOWCHATNOW" href="http://localhost:5173/"><h2 id="NOWCHATNOW">CHAT NOW</h2></a>
+      </div>
+      <div id="HeadingDiv">
+        <h1 id="MOOSICAPP">MOOSIC APP</h1>
+      </div>
+    </header>
+    <div class="MAIN-CONTAINER">
+      <div class="first class2">
+        <h2>PLAYLIST</h2>
+        
+        <ul class="playlist">
+        </ul>
+
+        <div class="first class2">
+
+
+          <!-- <div id="chat-container" class="">
+            <!-- Chat messages will be added here -->
+          <!-- </div>
+          <form id="chat-form">
+            <input
+              type="text"
+              id="message-input"
+              placeholder="Type your message here..."
+            />
+            <button type="submit">Send</button>
+          </form> --> 
+        </div>
+      </div>
+      <div class="second class2">
+        <h2>Now Playing</h2>
+
+        <audio src="songs/lit(var).mp3" id="audio"></audio>
+
+        <img id="cover" src="images/lit(var).jpg" alt="music-cover" />
+
+        <div class="audio-player">
+          <div class="navigation">
+            <button id="prev" class="action-btn">
+              <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+              <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
+        </div>
+
+        
+
+        <div class="music-container">
+          <!--  ADD PLAY CLASS FOR SONG NAME TO APPEAR  -->
+          <div class="progess-container">
+            <div class="progress"></div>
+          </div>
+          <div class="music-info">
+            <h2 id="title">ROY SONG</h2>
+          </div>
+        </div>
+
+        <div class="INPOOT">
+        <label for="genre">enter genre of the music you're listening to: </label>
+        <input type="text" id="genre" name="genre">
+        <br>
+        <input type="button" id="buttonGenre" value="ENTER"></button>
+        </div>
+        </div>
+
+      
+      <div class="third class2">
+        <h3>Recommendations!</h3>
+        <ol id="recommends">
+
+        </ol>
+      </div>
+    </div>
+    <script src="app.js" defer></script>
+
+    <!-- <script>
+      const inputGenre = document.getElementById('genre')
+      const buttonInputGenre = document.getElementById('buttonGenre')
+
+      function getGenre(){
+      console.log(inputGenre.value);
+      }
+
+      buttonInputGenre.addEventListener('click',getGenre()); -->
+    <!-- </script> -->
+  </body>
+</html>

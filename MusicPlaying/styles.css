@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+}
+
+/* .test{
+    
+    border: 1px solid black;
+    width: 90%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;   
+    margin: auto;
+} */
+
+header{
+    background-color:#222831;
+    height: 8%;
+    padding: 10px 0 0 0;
+    border: 2.5px solid #00ADB5;
+    display: flex;
+    
+}
+
+h1{
+    color: #EEEEEE;
+    padding-top: 5px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+
+a{
+    width: 20%;
+    color: #EEEEEE;
+    padding-top: 40px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+li{
+    margin: 10px 0;
+  }
+
+a:hover{
+    width: 20%;
+    color: hotpink;
+}
+
+#HeadingDiv{
+    flex: 200px;
+}
+
+.MAIN-CONTAINER{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00ADB5;
+}
+
+.class2{
+    color: #EEEEEE;
+    padding: 10px;
+    /* border: 4px solid #00ADB5; */
+    background: #222831;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.playlist{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem
+}
+
+.first{
+    flex: 120px;
+}
+
+.second{
+    flex: 400px;
+}
+
+.third{
+    flex: 130px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.action-btn{
+    background-color:#222831;
+    border: 0;
+    color: #00ADB5;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 4px;
+    margin: 0 20px;
+}
+
+.action-btn-big{
+    color: #EEEEEE;
+    font-size: 2rem;
+}
+
+.action-btn:focus{
+    outline: 0;
+}
+
+.music-info{
+    opacity: 0%;
+}
+
+.music-container.play .music-info{
+    opacity: 1;
+}
+
+/* .chat-bubble {
+    background-color: #dcf8c6;
+  align-self: flex-end;
+    color: #222831;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    max-width: 70%;
+  } */
+
+
+.progess-container{
+    background-color: #00ADB5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+
+    height: 5px;
+    width: 70%;
+
+}
+
+.INPOOT{
+    margin-top: 20px;
+}
+
+#title{
+    height: 5px;
+    margin-bottom: 0px;
+}
+
+#cover{
+    width: 50%;
+    /* padding-left: 25% */
+    /* padding: 10% 0; */
+    border-radius: 25%;
+    margin: 10% 0 6% 0 ;
+}
+
+#NOWCHATNOW{
+    width: 20%;
+    margin-top: 12px;
+    margin-left: 130px;
+    text-decoration: none;
+}
+
+#MOOSICAPP{
+    width: 400px;
+    padding-left: -200px;
+    margin-left: -200px;
+}
+

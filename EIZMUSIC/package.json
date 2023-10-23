@@ -1,0 +1,14 @@
+{
+  "name": "eizmusic",
+  "version": "1.0.0",
+  "description": "music player for college project",
+  "main": "index.js",
+  "scripts": {
+    "dev":"tailwindcss build src/input.css -o dist/styles.css"
+  },
+  "author": "Dhruv,Varun,shashwat,yashovardhan,joy",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
